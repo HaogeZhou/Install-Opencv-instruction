@@ -68,10 +68,9 @@ Then, install required libraries:
 Check CUDA installed.
 
 
-    ```
     $ nvidia-smi
     $ nvcc --version
-    ```
+
 
 We will now proceed with the installation.
 Download the expected version of [OpenCV](https://github.com/opencv/opencv/tags) and OpenCV-contrib[https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib/tags).
