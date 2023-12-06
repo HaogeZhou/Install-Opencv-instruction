@@ -66,6 +66,8 @@ Then, install required libraries:
     ```
 
 Check CUDA installed.
+
+
     ```
     $ nvidia-smi
     $ nvcc --version
@@ -79,7 +81,6 @@ Please make sure that the version of these must be same.
     $ cd ~/Downloads
     $ unzip opencv.zip
     $ unzip opencv_contrib.zip
-    
     $ cd opencv-4.2.0
     $ mkdir build
     $ cd build
