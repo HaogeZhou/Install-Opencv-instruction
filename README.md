@@ -73,7 +73,7 @@ Check CUDA installed.
 
 
 We will now proceed with the installation.
-Download the expected version of [OpenCV](https://github.com/opencv/opencv/tags) and OpenCV-contrib[https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib/tags).
+Download the expected version of [OpenCV](https://github.com/opencv/opencv/tags) and [OpenCV-contrib](https://github.com/opencv/opencv_contrib/tags).
 Please make sure that the version of these must be same.
 
 
