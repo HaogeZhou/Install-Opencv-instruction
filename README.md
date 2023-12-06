@@ -72,7 +72,7 @@ Check CUDA installed.
     ```
 
 We will now proceed with the installation.
-Download the expected version of OpenCV{https://github.com/opencv/opencv/tags} and OpenCV-contrib{[https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib/tags)}.
+Download the expected version of [OpenCV](https://github.com/opencv/opencv/tags) and OpenCV-contrib[https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib/tags).
 Please make sure that the version of these must be same.
 
 
@@ -86,9 +86,9 @@ Please make sure that the version of these must be same.
 
 Change the OPENCV_EXTRA_MODULES_PATH if your opencv_contrib directory is not the same name.
 Change WITH_CUDA WITH_CUDNN to make sure you nedd CUDA and Cudnn support or not.
-*-D CUDA_ARCH_BIN* is based on your GPU Compute Capability{https://developer.nvidia.com/cuda-gpus}.
-In case you do not want to include include CUDA set *-D WITH_CUDA=OFF*   
-    ```    
+*-D CUDA_ARCH_BIN* is based on your [GPU Compute Capability](https://developer.nvidia.com/cuda-gpus).
+In case you do not want to include include CUDA set *-D WITH_CUDA=OFF*  
+   
     cmake     -D CMAKE_BUILD_TYPE=RELEASE   
     -D CMAKE_C_COMPILER=/usr/bin/gcc     
     -D CMAKE_INSTALL_PREFIX=/usr/local     
@@ -119,7 +119,7 @@ In case you do not want to include include CUDA set *-D WITH_CUDA=OFF*
     -D OPENCV_ENABLE_NONFREE=ON    
     -D WITH_GSTREAMER=ON     
     -D BUILD_EXAMPLES=ON ..
-    ```
+
 
 Before the compilation you must check that CUDA has been enabled in the configuration summary printed on the screen. (If you have problems with the CUDA Architecture go to the end of the document).
 
